@@ -1,50 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kanji</title>
-    <link rel="stylesheet" href="../styles/styles.css">
-    <link rel="stylesheet" href="../styles/typography.css">
-    <link rel="stylesheet" href="../styles/header.css">
-    <link rel="stylesheet" href="../styles/footer.css">
-    <link rel="stylesheet" href="../styles/contact.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/typography.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="menu">
-            <a class="header__logo-container" href="../index.html"><img class="logo" src="../images/logo.png" alt="Logo"></a>
-            <a class="menu-item" href="../index.html"><p class="menu-item__text">Home</p></a>
-            <a class="menu-item" href="./gikun.html"><p class="menu-item__text">Gikun</p></a>
-            <a class="menu-item" href="./ateji.html"><p class="menu-item__text">Ateji</p></a>
-            <a class="menu-item" href="./contact.html"><p class="menu-item__text" style="text-decoration: underline;">Contact</p></a>
-        </div>
+      <div class="menu">
+        <a class="header__logo-container" href="../index.html"
+          ><img class="logo" src="../images/logo.png" alt="Logo"
+        /></a>
+        <a class="menu-item" href="../index.html"
+          ><p class="menu-item__text">Home</p></a
+        >
+        <a class="menu-item" href="./gikun.html"
+          ><p class="menu-item__text">Gikun</p></a
+        >
+        <a class="menu-item" href="./ateji.html"
+          ><p class="menu-item__text">Ateji</p></a
+        >
+        <a class="menu-item" href="./contact.html"
+          ><p class="menu-item__text" style="text-decoration: underline">
+            Contact
+          </p></a
+        >
+      </div>
     </header>
     <h1 class="page-title">Contact Me</h1>
     <main class="main">
-        <section class="main__container">
-            <article class="main__article">
-                <h3 class="article-header-text">Contact Form</h3>
-                <p class="article-text">If you have any questions about kanji you would like to send me, feel free to use the contact form and send me an e-mail!</p>
-                <form action="mailto: alexanderbjdgw@gmail.com" enctype="text/plain" method="POST" class="user-form">
-                    <fieldset>
-                        <label for="user-name">Please enter your e-mail here: </label><br>
-                        <input class="email-input" type="text" name="user-email" id="user-email" required>
-                        <br>
-                        <br>
-                        <label for="user-message">Enter your message below: </label><br>
-                        <textarea class="message-input" type="text" name="user-message" id="user-message" rows="10" cols="40" required></textarea><br>
-                        <br>
-                        <button>Submit Form</button>
-                    </fieldset>
-                </form>
-            </article>
-        </section>
+      <section class="main__container">
+        <article class="main__article">
+          <h3 class="article-header-text">Contact Form</h3>
+          <p class="article-text">
+            If you have any questions about kanji you would like to send me,
+            feel free to use the contact form and send me an e-mail!
+          </p>
+          <form
+            action="mailto: alexanderbjdgw@gmail.com"
+            enctype="text/plain"
+            method="POST"
+            class="user-form"
+          >
+            <fieldset>
+              <label for="user-name">Please enter your e-mail here: </label
+              ><br />
+              <input
+                class="email-input"
+                type="text"
+                name="user-email"
+                id="user-email"
+                required
+              />
+              <br />
+              <br />
+              <label for="user-message">Enter your message below: </label><br />
+              <textarea
+                class="message-input"
+                type="text"
+                name="user-message"
+                id="user-message"
+                rows="10"
+                cols="40"
+                required
+              ></textarea
+              ><br />
+              <br />
+              <button>Submit Form</button>
+            </fieldset>
+          </form>
+        </article>
+      </section>
     </main>
     <footer class="footer">
-        <div class="footer__container">
-            <div class="footer__copyright"><p>Copyright Alexander Lindström 2024</p></div>
+      <div class="footer__container">
+        <div class="footer__copyright">
+          <p>Copyright Alexander Lindström 2024</p>
         </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

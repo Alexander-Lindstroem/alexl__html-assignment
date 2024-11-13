@@ -1,16 +1,15 @@
 .image.gikun {
-    background-image: url(../images/small_birds_play.png);
-    background-size: cover;
-    background-position: top;
-    height: 15em;
-    width: auto;
+  background-image: url(../images/small_birds_play.png);
+  background-size: cover;
+  background-position: top;
+  height: 15em;
+  width: auto;
 }
 
-
 @media screen and (min-width: 768px) {
-    .image.gikun {
-        height: 22em;
-        width: 70%;
-        margin: 0 auto;
-    }
+  .image.gikun {
+    height: 22em;
+    width: 70%;
+    margin: 0 auto;
+  }
 }

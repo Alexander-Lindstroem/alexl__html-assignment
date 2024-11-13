@@ -1,89 +1,100 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    height: 100vh;
+  height: 100vh;
 }
 
 a:any-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 body {
-    background-image: url("../images/sakura-background.jpg");
-    background-position: center;
-    background-size: fixed;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    height: 100%;
+  background-image: url("../images/sakura-background.jpg");
+  background-position: center;
+  background-size: fixed;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100%;
 }
 
 .page-title {
-    text-align: center;
-    font-family: "EB Garamond";
-    margin: 16px 0;
-    text-shadow: 0 0 10px #ffb7c5;
+  text-align: center;
+  font-family: "EB Garamond";
+  margin: 16px 0;
+  text-shadow: 0 0 10px #ffb7c5;
 }
 
 .main {
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.4) 5%, rgba(255,255,255,0.6) 20%, rgba(255,255,255,0.8) 80%, rgba(255,255,255,0.95) 100%); 
-    flex-grow: 1;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.4) 5%,
+    rgba(255, 255, 255, 0.6) 20%,
+    rgba(255, 255, 255, 0.8) 80%,
+    rgba(255, 255, 255, 0.95) 100%
+  );
+  flex-grow: 1;
 }
 
 .main__container {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .main__article {
-    margin: 0 16px;
-    padding: 24px;
-    border-radius: 16px;
-    background-color: #fff;
-    opacity: .90;
-    box-shadow: 0 0 8px #ffb7c5 inset;
+  margin: 0 16px;
+  padding: 24px;
+  border-radius: 16px;
+  background-color: #fff;
+  opacity: 0.9;
+  box-shadow: 0 0 8px #ffb7c5 inset;
 }
 
 .article-header-text {
-    font-family: "EB Garamond";
-    font-size: 1.6rem;
-    font-weight: 500;
-    margin: 0;
+  font-family: "EB Garamond";
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 0;
 }
 
 .article-text {
-    font-family: "Crimson Text";
-    font-size: 0.8rem;
+  font-family: "Crimson Text";
+  font-size: 0.8rem;
 }
 
 .image {
-    border-radius: 16px;
-    position: relative;
+  border-radius: 16px;
+  position: relative;
 }
 
 .image-description {
-    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255, 255, 255, 1) 50%);
-    padding: 40px 0 16px 16px;
-    position: absolute;
-    opacity: 0.8;
-    bottom: 0;
-    font-family: "Crimson Text";
-    font-weight: 600;
-    width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 50%
+  );
+  padding: 40px 0 16px 16px;
+  position: absolute;
+  opacity: 0.8;
+  bottom: 0;
+  font-family: "Crimson Text";
+  font-weight: 600;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-    .main__container {
-        margin: auto;
-        max-width: 1232px;
-        flex-grow: 1;   
-    }
-    .article-text {
-        font-size: 1rem;
-    }
+  .main__container {
+    margin: auto;
+    max-width: 1232px;
+    flex-grow: 1;
+  }
+  .article-text {
+    font-size: 1rem;
+  }
 }
